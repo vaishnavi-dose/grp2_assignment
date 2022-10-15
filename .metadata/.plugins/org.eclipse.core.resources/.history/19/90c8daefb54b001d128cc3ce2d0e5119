@@ -1,0 +1,10 @@
+package com;
+
+public class Try {
+
+	int range()
+	{
+		return 1000;
+	}
+
+}

@@ -1,0 +1,21 @@
+package com;
+
+public class Largest_No 
+{
+	int checkLargest(int range1, int range2 ) 
+	{
+		if(range1 > range2)
+		{
+			return range1;
+		}
+		return range2;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Largest_No ln = new Largest_No();
+		int ans = ln.checkLargest(1000, 1);
+		System.out.println(ans);
+	}
+
+}

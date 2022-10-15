@@ -1,0 +1,35 @@
+package com;
+
+import java.util.Scanner;
+
+public class Largest_No implements Largest_Num 
+{
+	int checkLargest(int range1, int range2 )  
+	{
+		if(range1 > range2)
+		{
+			return range1;
+		}
+		return range2;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Largest_No ln = new Largest_No();
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter Your Age :");
+		int r1= sc.nextInt();
+		
+		System.out.println("Your age but after Thousand Year:");
+		int r2= sc.nextInt();
+		
+		int ans = ln.checkLargest(r1, r2);
+		System.out.println(ans);
+	}
+
+	
+	
+
+}

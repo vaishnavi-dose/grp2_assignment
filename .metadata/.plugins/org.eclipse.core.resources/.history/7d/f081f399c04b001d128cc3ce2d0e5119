@@ -1,0 +1,11 @@
+package com;
+
+import org.junit.Test;
+
+public class Largest_NoTest 
+{
+	@Test
+	Largest_NoTest t1 = new Largest_NoTest();
+	int a = t1.checkLargest(1,1000);
+	assertEquals(a,)
+}
