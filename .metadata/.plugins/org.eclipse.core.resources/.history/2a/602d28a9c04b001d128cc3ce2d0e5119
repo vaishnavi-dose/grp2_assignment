@@ -1,0 +1,16 @@
+package com;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class Largest_NoTest {
+
+	@Test
+	public void evaluatesExpression() {
+	Largest_No t1 = new Largest_No();
+	int sum = t1.checkLargest(1,1000);
+	assertEquals(1000,sum);
+}
+
+}
